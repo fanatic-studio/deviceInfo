@@ -3,13 +3,13 @@
 ## 安装
 
 ```shell script
-vd plugin install https://github.com/ivde/deviceInfo
+vd plugin install https://github.com/kjeco/deviceInfo
 ```
 
 ## 卸载
 
 ```shell script
-vd plugin uninstall https://github.com/ivde/deviceInfo
+vd plugin uninstall https://github.com/kjeco/deviceInfo
 ```
 
 ## 引用
