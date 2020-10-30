@@ -1,4 +1,4 @@
-package vd.android.deviceInfo.module.device_screen;
+package eco.android.deviceInfo.module.device_screen;
 
 import android.app.Activity;
 import android.content.Context;

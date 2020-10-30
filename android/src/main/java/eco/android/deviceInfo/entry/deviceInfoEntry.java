@@ -1,12 +1,12 @@
-package vd.android.deviceInfo.entry;
+package eco.android.deviceInfo.entry;
 
 import android.content.Context;
 
 import com.taobao.weex.WXSDKEngine;
 import com.taobao.weex.common.WXException;
 
-import app.vd.framework.extend.annotation.ModuleEntry;
-import vd.android.deviceInfo.module.AppdeviceInfoModule;
+import app.eco.framework.extend.annotation.ModuleEntry;
+import eco.android.deviceInfo.module.AppdeviceInfoModule;
 
 @ModuleEntry
 public class deviceInfoEntry {
@@ -17,7 +17,7 @@ public class deviceInfoEntry {
      */
     public void init(Context content) {
         try {
-            WXSDKEngine.registerModule("vdDeviceInfo", AppdeviceInfoModule.class);
+            WXSDKEngine.registerModule("ecoDeviceInfo", AppdeviceInfoModule.class);
         } catch (WXException e) {
             e.printStackTrace();
         }

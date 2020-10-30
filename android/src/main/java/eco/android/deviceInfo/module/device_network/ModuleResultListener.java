@@ -1,4 +1,4 @@
-package vd.android.deviceInfo.module.device_network;
+package eco.android.deviceInfo.module.device_network;
 
 public interface ModuleResultListener {
     void onResult(Object o);

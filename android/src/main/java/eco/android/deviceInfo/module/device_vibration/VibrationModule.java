@@ -1,4 +1,4 @@
-package vd.android.deviceInfo.module.device_vibration;
+package eco.android.deviceInfo.module.device_vibration;
 
 import android.content.Context;
 import android.media.AudioManager;

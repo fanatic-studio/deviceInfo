@@ -3,19 +3,19 @@
 ## 安装
 
 ```shell script
-vd plugin install https://github.com/kjeco/deviceInfo
+eco plugin install https://github.com/kjeco/deviceInfo
 ```
 
 ## 卸载
 
 ```shell script
-vd plugin uninstall https://github.com/kjeco/deviceInfo
+eco plugin uninstall https://github.com/kjeco/deviceInfo
 ```
 
 ## 引用
 
 ```js
-const deviceInfo = app.requireModule("vd/deviceInfo");
+const deviceInfo = app.requireModule("eco/deviceInfo");
 ```
 
 ### info(callback) 获取信息

@@ -1,7 +1,7 @@
 //
 //  AppDeviceNetwork.m
 //
-//  Created by VD 19/06/14.
+//  Created by eco 19/06/14.
 //  Copyright © 2019 All rights reserved.
 //
 #import "AppDeviceNetwork.h"
@@ -54,11 +54,11 @@
                         return @"3g";
                     } else if ([telephonyInfo.currentRadioAccessTechnology  isEqualToString:CTRadioAccessTechnologyCDMA1x]) {
                         return @"3g";
-                    } else if ([telephonyInfo.currentRadioAccessTechnology  isEqualToString:CTRadioAccessTechnologyCDMAEVDORev0]) {
+                    } else if ([telephonyInfo.currentRadioAccessTechnology  isEqualToString:CTRadioAccessTechnologyCDMAEecoORev0]) {
                         return @"3g";
-                    } else if ([telephonyInfo.currentRadioAccessTechnology  isEqualToString:CTRadioAccessTechnologyCDMAEVDORevA]) {
+                    } else if ([telephonyInfo.currentRadioAccessTechnology  isEqualToString:CTRadioAccessTechnologyCDMAEecoORevA]) {
                         return @"3g";
-                    } else if ([telephonyInfo.currentRadioAccessTechnology  isEqualToString:CTRadioAccessTechnologyCDMAEVDORevB]) {
+                    } else if ([telephonyInfo.currentRadioAccessTechnology  isEqualToString:CTRadioAccessTechnologyCDMAEecoORevB]) {
                         return @"3g";
                     } else if ([telephonyInfo.currentRadioAccessTechnology  isEqualToString:CTRadioAccessTechnologyeHRPD]) {
                         return @"3g";

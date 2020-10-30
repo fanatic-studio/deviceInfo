@@ -1,4 +1,4 @@
-package vd.android.deviceInfo.module;
+package eco.android.deviceInfo.module;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -10,14 +10,14 @@ import com.taobao.weex.annotation.JSMethod;
 import com.taobao.weex.bridge.JSCallback;
 import com.taobao.weex.common.WXModule;
 
-import vd.android.deviceInfo.module.device_battery.BatteryModule;
-import vd.android.deviceInfo.module.device_info.DeviceInfoModule;
-import vd.android.deviceInfo.module.device_network.NetworkModule;
-import vd.android.deviceInfo.module.device_screen.Constant;
-import vd.android.deviceInfo.module.device_screen.ScreenModule;
-import vd.android.deviceInfo.module.device_screen.Util;
-import vd.android.deviceInfo.module.device_vibration.VibrationModule;
-import vd.android.deviceInfo.module.device_volume.VolumeModule;
+import eco.android.deviceInfo.module.device_battery.BatteryModule;
+import eco.android.deviceInfo.module.device_info.DeviceInfoModule;
+import eco.android.deviceInfo.module.device_network.NetworkModule;
+import eco.android.deviceInfo.module.device_screen.Constant;
+import eco.android.deviceInfo.module.device_screen.ScreenModule;
+import eco.android.deviceInfo.module.device_screen.Util;
+import eco.android.deviceInfo.module.device_vibration.VibrationModule;
+import eco.android.deviceInfo.module.device_volume.VolumeModule;
 
 public class AppdeviceInfoModule extends WXModule {
 
